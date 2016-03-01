@@ -10,11 +10,12 @@ import Foundation
 
 public class girlFriend{
     
-    var name:String=""
-    var age:Int=0
+    public var name:String!
+    public var age:Int!
     
-    
+    init(){
+        self.age=Int(arc4random()%20)+18
+        self.name=makeName.init().str
+    }
     
 }
-
-print(girlFriend)
