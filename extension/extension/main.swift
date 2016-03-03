@@ -8,9 +8,10 @@
 
 import Foundation
 
-let s:NSString=""
-let s1:NSString="你好 swift"
-var s2:NSString=s.split(s1)//对字符串s1以空格为分隔符进行分割
-print(s2)//输出分割结果
 
 
+let S:NSString="hello swift"//使用示例，创建一个NSString的变量S并存入一个“hello swift”的字符串
+let subStr=S.split(" ")//调用为NSString扩展的split方法，以一个空格作为分割条件对字符串进行分割,并将分割结果存入subStr常量中
+print(subStr)//打印分割结果，分割成功
+
+//扩展后的split分割方法可以指定一个字符作为分割条件对字符串进行分割并用一个数组返回分割结果，作业完成。
