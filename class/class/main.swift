@@ -24,3 +24,6 @@ var name:String=gfname[j]//将该下标对应数组内容赋值给名字变量
 var age:Int=gfage[j]//将该下标对应数组内容赋值给年龄
 
 girlFriend().date(j, gfname: name, gfage: age)//将名字和年龄以及第几个女朋友的变量传参给约会方法，并执行约会方法
+
+let s=student(age: 27, name: "chenpeisheng")
+
